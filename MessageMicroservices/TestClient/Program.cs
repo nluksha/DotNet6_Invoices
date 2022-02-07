@@ -12,8 +12,8 @@ await Task.Delay(3000);
 
 var busControll = Bus.Factory.CreateUsingRabbitMq(config =>
 {
-    config.Host("localhost");
-    config.ReceiveEndpoint("invoice-service-created", e =>
+    config.Host("localhost"); // Instance of RabbitMQ from Docker
+    config.ReceiveEndpoint("invoice-service-created", e => // Listen to the queue with name "invoice-service-created"
     {
         e.UseInMemoryOutbox();
         e.Consumer<InvoiceCreatedConsumer>(c => c.UseMessageRetry(m => m.Interval(RETRY_COUNT, new TimeSpan(0, 0, RETRY_INTERVAL_SECONDS))));
