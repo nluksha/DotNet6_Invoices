@@ -1,2 +1,2 @@
-# DotNet6_Invoices
+# DotNet6_MessageMicroservices
 .Net6 RabbitMQ MassTransit
