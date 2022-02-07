@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageContracts", "MessageContracts\MessageContracts.csproj", "{CFA1B665-B1AA-4786-8210-B788DFB56897}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceMicroservice", "InvoiceMicroservice\InvoiceMicroservice.csproj", "{4EAD5757-CFC2-4925-B2B0-10DF2C18F8CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CFA1B665-B1AA-4786-8210-B788DFB56897}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFA1B665-B1AA-4786-8210-B788DFB56897}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFA1B665-B1AA-4786-8210-B788DFB56897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EAD5757-CFC2-4925-B2B0-10DF2C18F8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EAD5757-CFC2-4925-B2B0-10DF2C18F8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EAD5757-CFC2-4925-B2B0-10DF2C18F8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EAD5757-CFC2-4925-B2B0-10DF2C18F8CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
