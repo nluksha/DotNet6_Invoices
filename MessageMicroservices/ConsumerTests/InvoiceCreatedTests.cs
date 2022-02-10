@@ -12,7 +12,7 @@ using Xunit;
 
 namespace ConsumerTests
 {
-    public class InvoiceTests
+    public class InvoiceCreatedTests
     {
         [Fact]
         public async Task Verify_InvoiceCreatedMessage_Consummed()

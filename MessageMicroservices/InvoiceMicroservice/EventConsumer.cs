@@ -3,7 +3,7 @@ using MessageContracts;
 
 namespace InvoiceMicroservice
 {
-    internal class EventConsumer : IConsumer<IInvoiceToCreate>
+    public class EventConsumer : IConsumer<IInvoiceToCreate>
     {
         public async Task Consume(ConsumeContext<IInvoiceToCreate> context)
         {
